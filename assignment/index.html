@@ -1,17 +1,45 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
     <title>Unit 4, Part 2: HTML/CSS Practice</title>
     <!-- Create and link a CSS file! -->
     <link rel="stylesheet" typed="text/css" href="/Users/eric/Documents/assignments/assignment-unit-4.2/assignment/stylsheet.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   </head>
-  <body>
+  <body class="body">
     <header class="header">
       <h1>Unit 4, Part 2: HTML/CSS Practice</h1>
       <p>See console for output</p>
-     </header>
-     <div class="info">
+    </header>
+    <!--- navigation bar with drop-down --->
+    <div class="sideNavBar">
+      <button class="drop-down-btn">Food
+        <i class="fa fa-caret-down"></i>
+      </button>
+        <div class="drop-down-container">
+          <a href="chicken">chicken</a>
+          <a href="beef">beef</a>
+          <a href="pork">pork</a>
+          <a href="veggies">veggies</a>
+          <a href="beverages">beverages</a>
+          <a href="grains">grains</a>
+          <a href="sweet">sweet</a>
+        </div>
+      <button class="drop-down-btn">Hobbies
+        <i class="fa fa-caret-down"></i>
+      </button>
+        <div class="drop-down-container">
+          <a href="disc-golf">disc golf</a>
+          <a href="softball">softball</a>
+          <a href="bowling">bowling</a>
+          <a href="amateur radio">amateur radio</a>
+          <a href="royal-icing-cookies">royal icing cookies</a>
+          <a href="programming">programming</a>
+        </div>
+      </button>
+    </div>
+    <div class="info">
       <h2 id="name">My name is Eric <br>
         <a href="https://www.google.com/search?q=2008+honda+civice&rlz=1C5CHFA_enUS1047US1047&oq=2008+honda+civice&aqs=chrome..69i57j46i13i433i512j46i13i512l5j0i13i512l2.4118j0j7&sourceid=chrome&ie=UTF-8" target="_blank">
           <image id="hondaCivicImage"src="https://listings-prod.tcimg.net/listings/76767/49/87/2HGFA16578H328749/I7HSNOWPY366FPKM7N6ZN27NVU-cr-540.jpg" alt="2008 honda civic"></image>
@@ -25,9 +53,16 @@
           <li>Year: 2008</li>
           <li>Model: Sedan</li>
           <li>Make: Honda</li>
+          <li>Miles: 200k+</li>
           <li>Transmission: manual</li>
         </ul>
       </h3>
-     </div>
+    </div>
+    <div class="sidenavBar">
+      <button class="food-btn">Food</button>
+        <i class=""></i>
+    </div>
+
+  <script src="/Users/eric/Documents/assignments/assignment-unit-4.2/assignment/htmlCssPractice.js"></script>
   </body>
 </html>
