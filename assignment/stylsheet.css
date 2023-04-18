@@ -1,0 +1,23 @@
+.header {
+    background-color: #68E0CA;
+}
+
+h2 {
+    background-color: #48C1EA;
+    color: blue;
+}
+
+#hondaCivicImage {
+    border: white;
+    border-style: solid;
+    border-radius: 7px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.transportationDescription {
+    background-color: #BD7CE4;
+    color: purple;
+}
